@@ -1,0 +1,17 @@
+package testPackage;
+
+import org.testng.annotations.Test;
+
+public class TestNGDay3 {
+
+	@Test
+	public void Demo4() {
+		System.out.println("Prioritizing Tests");
+	}
+	
+	@Test 
+	public void Demo5() {
+		System.out.println("Practicing Prioritizing tests with TestNG ");
+	}
+	
+} 
