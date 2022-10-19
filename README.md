@@ -12,3 +12,7 @@ even we can prioritize test cases in testng.xml if we want to include or exclude
 
 @BeforeTest - Method of this test case will execute first over all the other TestCases  <<< Eg: Login, Refresh, Clear webElement (email box) >>>.
 @AfterTest - Method of this test case will execute last after all the other TestCases.  <<< Eg: SignOut, Submit. etc >>> 
+@BeforeMethod - Method of this test case will execute before all the methods once. 
+@BeforeSuite - Method of this test case will execute before all the methods of all the classes in a package.
+@AfterSuite - Method of this test case will execute after all the methods of all the classes in a package.
+
