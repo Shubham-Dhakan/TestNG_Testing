@@ -7,10 +7,14 @@
 			<include name="Smoke"/>
 		</run>
 	</groups>
-	
 	<packages>
 		<package name="testPackage"/>
 	</packages>
+	</test>
 	
-	</test> 
+<test name = "Helper Attribute">
+	<classes>
+		<class name="testPackage2.Testing_Day2"/>
+		</classes>
+</test> 
 </suite> <!--Suite -->

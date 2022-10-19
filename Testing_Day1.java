@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Testing_Day1 {
 
-@Test(groups= {"Smoke"})
+@Test
 public void testing_seleniumJava() {
 	System.out.println("Automated message from TestNG, performing selenium testing"); 
 }
@@ -27,7 +27,7 @@ public void testing_soapui() {
 	System.out.println("Automated message from TestNG, performing SOAP UI testing and i will get printed before once before all the testcases.");
 }
 
-@Test 
+@Test(dependsOnMethods={"testing_seleniumJava"})
 public void testing_jmeter() {
 	System.out.println("Automated message from TestNG, performing jmeter testing");
 }
