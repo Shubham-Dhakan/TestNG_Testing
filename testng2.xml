@@ -3,7 +3,7 @@
 <suite name="Suite">
 	  <test name="Test">
 	    	<classes>
-	    		<class name="qaTesting.Testing_Day1">
+	    		<class name="testPackage2.Testing_Day1">
 	    			<methods>
 	    				<include name="testing.*"/>
 	    			</methods>
@@ -11,10 +11,10 @@
 	    	</classes>
 	  </test> <!-- Test -->
 	  
-  <test name="Test2">
+  <!-- <test name="Test2">
 	  <packages>
-	  		<package name = "qaTesting"/>
+	  		<package name = "testPackage2"/>
 	  </packages>
   </test>
-  
+  -->
 </suite> <!-- Suite -->
