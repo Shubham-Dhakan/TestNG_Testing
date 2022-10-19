@@ -8,3 +8,7 @@ even we can prioritize test cases in testng.xml if we want to include or exclude
 
 4) Executing the TestCases at Package level with Regex. ### Refer testng2.xml file for it ###
 
+5) Types of Annotation: 
+
+@BeforeTest - Method of this test case will execute first over all the other TestCases  <<< EG: Login, Refresh, Clear webElement (email box) >>>
+@AfterTest - Method of this test case will execute last after all the other TestCases.  <<< EG: SignOut, Submit. etc >>> 
