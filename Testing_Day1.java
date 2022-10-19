@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Testing_Day1 {
 
-@Test
+@Test(groups= {"Smoke"})
 public void testing_seleniumJava() {
 	System.out.println("Automated message from TestNG, performing selenium testing"); 
 }

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class TestNGDay3 {
 
-	@Test
+	@Test(groups= {"Smoke"})
 	public void Demo4() {
 		System.out.println("Prioritizing Tests");
 	}
