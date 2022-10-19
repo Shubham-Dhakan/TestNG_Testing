@@ -1,5 +1,6 @@
 package testPackage;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class TestNGDay3 {
@@ -14,4 +15,8 @@ public class TestNGDay3 {
 		System.out.println("Practicing Prioritizing tests with TestNG ");
 	}
 	
+	@AfterTest
+	public void Demo6() {
+		System.out.println("I will execute Last");
+	}
 } 
