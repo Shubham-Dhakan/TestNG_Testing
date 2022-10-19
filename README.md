@@ -10,5 +10,5 @@ even we can prioritize test cases in testng.xml if we want to include or exclude
 
 5) Types of Annotation: 
 
-@BeforeTest - Method of this test case will execute first over all the other TestCases  <<< Eg: Login, Refresh, Clear webElement (email box) >>>
+@BeforeTest - Method of this test case will execute first over all the other TestCases  <<< Eg: Login, Refresh, Clear webElement (email box) >>>.
 @AfterTest - Method of this test case will execute last after all the other TestCases.  <<< Eg: SignOut, Submit. etc >>> 
