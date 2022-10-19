@@ -16,3 +16,6 @@ even we can prioritize test cases in testng.xml if we want to include or exclude
  @BeforeSuite - Method of this test case will execute before all the methods of all the classes in a package.
  @AfterSuite - Method of this test case will execute after all the methods of all the classes in a package.
 
+6) Groups Concept in TestNG: For reference refer tesng3.xml for understanding, if we want to call specific methods(TestCases) among 100 classes in a package then we have to use Groups concept in TestNG.
+             <<< CODE Eg: @Test(groups={"abc"})
+                          public void Demo() {}   >>>
