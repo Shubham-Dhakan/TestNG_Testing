@@ -20,4 +20,4 @@ even we can prioritize test cases in testng.xml if we want to include or exclude
              <<< CODE Eg: @Test(groups={"abc"})
                           public void Demo() {}   >>>
 
-7) FlipKartLogin - File showcases the perfect example of parametrization concept where we fetching values from xml file in our java file through parameteriztion. 
+7) FlipKartLogin - File showcases the perfect example of parametrization concept where we are fetching values from xml file in our java file through parameterization concept. 
