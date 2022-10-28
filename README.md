@@ -21,3 +21,4 @@ even we can prioritize test cases in testng.xml if we want to include or exclude
                           public void Demo() {}   >>>
 
 7) FlipKartLogin - File showcases the perfect example of parametrization concept where we are fetching values from xml file in our java file through parameterization concept. 
+8) DataProvider - Whenever we have to fill multiple forms on website and deal with mutliple data's then we have to DataProvider concept of testng. As it returns array of objects. 
