@@ -19,3 +19,5 @@ even we can prioritize test cases in testng.xml if we want to include or exclude
 6) Groups Concept in TestNG: For reference refer tesng3.xml for understanding, if we want to call specific methods(TestCases) among 100 classes in a package then we have to use Groups concept in TestNG.
              <<< CODE Eg: @Test(groups={"abc"})
                           public void Demo() {}   >>>
+
+7) FlipKartLogin - File showcases the perfect example of parametrization concept where we are fetching values from xml file in our java file through parameterization concept. 
